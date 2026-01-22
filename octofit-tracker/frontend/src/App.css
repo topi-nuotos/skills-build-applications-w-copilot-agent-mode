@@ -1,0 +1,82 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #22223b;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #4361ee 100%) !important;
+  box-shadow: 0 2px 8px rgba(58,134,255,0.1);
+}
+.navbar .navbar-brand, .navbar .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.navbar .navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.navbar .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #3a86ff;
+  font-weight: 700;
+}
+
+a, .App-link {
+  color: #3a86ff;
+  text-decoration: underline;
+}
+a:hover, .App-link:hover {
+  color: #4361ee;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(58,134,255,0.05);
+}
+.table th {
+  background: #3a86ff;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e0eafc;
+}
+
+.btn, .btn-primary {
+  background: linear-gradient(90deg, #3a86ff 0%, #4361ee 100%);
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(58,134,255,0.08);
+}
+.btn:hover, .btn-primary:hover {
+  background: linear-gradient(90deg, #4361ee 0%, #3a86ff 100%);
+  color: #fff;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(58,134,255,0.08);
+  margin-bottom: 2rem;
+}
+.card-title {
+  color: #3a86ff;
+}
+
+/* Favicon and logo tweaks */
+.app-logo-small {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
